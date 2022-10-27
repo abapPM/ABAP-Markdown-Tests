@@ -252,7 +252,9 @@ ____
 
 ```
 [Semantic description](https://roneo.org/markdown)
+
 <address@example.com>
+
 <https://roneo.org/markdown> works too. Must be used for explicit links.
 ```
 
