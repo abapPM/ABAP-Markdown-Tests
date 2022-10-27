@@ -108,7 +108,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 >
 > Here's some example code:
 >
->     return shell_exec("echo $input | $markdown_script");
+>     `return shell_exec("echo $input | $markdown_script");`
 
 
 ## Lists
@@ -165,7 +165,6 @@ Incrementation is automatic, you can simply use `1.` everywhere
 1. First item
 1. Second item
 1. Third item
-
 
 
 ### Nested list
@@ -243,7 +242,6 @@ ____
 ****
 
 ____
-
 
 
 
