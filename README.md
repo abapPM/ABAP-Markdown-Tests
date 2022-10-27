@@ -142,11 +142,9 @@ Can be marked with `-`, `+` or `*`
 - Second item
 - Third item
 
-
 + First item
 + Second item
 + Third item
-
 
 * First item
 * Second item
@@ -648,7 +646,7 @@ complex term
 
 ## Headings
 
-Add `##` at the beginning of a line to set as Heading.  
+Add `#` at the beginning of a line to set as Heading.  
 You can use up to 6 `#` symbols for the corresponding Heading levels
 
 
