@@ -95,7 +95,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 >
 > Here's some example code:
 >
->     `return shell_exec("echo $input | $markdown_script");`
+> `return shell_exec("echo $input | $markdown_script");`
 ```
 
 **Output:**
@@ -108,7 +108,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 >
 > Here's some example code:
 >
->     `return shell_exec("echo $input | $markdown_script");`
+> `return shell_exec("echo $input | $markdown_script");`
 
 
 ## Lists
@@ -251,15 +251,17 @@ ____
 ### Basic links
 
 ```
-[Semantic description](https://roneo.org/markdown)  
-<address@example.com>  
+[Semantic description](https://roneo.org/markdown)
+<address@example.com>
 <https://roneo.org/markdown> works too. Must be used for explicit links.
 ```
 
 **Output:**
 
-[Semantic description](https://roneo.org/markdown)  
-<address@example.com>  
+[Semantic description](https://roneo.org/markdown)
+
+<address@example.com>
+
 <https://roneo.org/markdown> works too. Must be used for explicit links.
 
 
