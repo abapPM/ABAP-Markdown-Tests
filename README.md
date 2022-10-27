@@ -95,7 +95,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 >
 > Here's some example code:
 >
->     return shell_exec("echo $input | $markdown_script");
+>     `return shell_exec("echo $input | $markdown_script");`
 ```
 
 **Output:**
@@ -116,7 +116,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 
 ### Unordered list
 
-Cant be marked with `-`, `+` or `*`
+Can be marked with `-`, `+` or `*`
 
 ```markdown
 - First item
