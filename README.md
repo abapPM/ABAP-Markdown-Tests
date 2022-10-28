@@ -58,7 +58,21 @@ Three stars gives ***bold and italic***
 
 Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 
+### Highlight
 
+Using `~~two equal signs~~` will highlight:  ==two equal signs==
+
+### Subscript
+
+One tilde before and after `H~2~O` will subscript something.
+
+H~2~O
+
+### Superscript
+
+One caret before and after `X^2^` will superscript something.
+
+X^2^
 
 ## Blockquotes
 
