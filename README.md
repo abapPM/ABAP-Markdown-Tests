@@ -60,7 +60,7 @@ Using `~~two tildes~~` will strikethrough:  ~~two tildes~~
 
 ### Highlight
 
-Using `~~two equal signs~~` will highlight:  ==two equal signs==
+Using `==two equal signs==` will highlight:  ==two equal signs==
 
 ### Subscript
 
