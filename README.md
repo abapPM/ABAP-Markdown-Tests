@@ -350,6 +350,32 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 
 
+### Automatic linking
+
+Automatically turn a URL into a link even though you haven’t used brackets.
+
+```
+http://www.example.com
+```
+
+The rendered output looks like this:
+
+http://www.example.com
+
+
+### Disable automatic linking
+
+If you don’t want a URL to be automatically linked, you can remove the link by denoting the URL as code with backticks.
+
+```
+`http://www.example.com`
+```
+
+The rendered output looks like this:
+
+`http://www.example.com`
+
+
 ### Attribute a custom anchor to a heading
 
 Anchors are automatically generated based on the heading's content. You can customize the anchor this way:
