@@ -450,6 +450,30 @@ Set the language right after the first backticks (for example `` ```html  ``) to
 }
 ```
 
+#### XML
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
+   <STARTING_FOLDER>/src/</STARTING_FOLDER>
+   <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+  </DATA>
+ </asx:values>
+```
+
+#### ABAP
+
+```abap
+REPORT zfoobar.
+* A full-line comment
+CONSTANTS c_version TYPE string VALUE '1.23.0'. "end of line comment
+
+WRITE 'Hello, World!'.
+```
+
 #### Bash
 
 ```bash
