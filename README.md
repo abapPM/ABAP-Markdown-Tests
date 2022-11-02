@@ -393,7 +393,7 @@ Anchors are automatically generated based on the heading's content. You can cust
 
 ### Inline
 
-Wrap with single backticks to highlight as`` `code` `` → `code`
+Wrap with single backticks to highlight as `` `code` `` → `code`
 
 ### Codeblocks
 
