@@ -156,9 +156,13 @@ Can be marked with `-`, `+` or `*`
 - Second item
 - Third item
 
+or
+
 + First item
 + Second item
 + Third item
+
+or
 
 * First item
 * Second item
