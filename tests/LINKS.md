@@ -25,13 +25,23 @@
 [Readme](/tests/README.md)
 ![Book](/tests/book.png)
 
-## URL same server
+## URL same repository
 
-[Readme](http://github.com/mbtools/TEST_MARKDOWN/README.md)
+[Readme](https://github.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/blob/main/README.md)
+![Book](https://raw.githubusercontent.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/main/tests/book.png)
 
-[Readme](https://github.com/mbtools/TEST_MARKDOWN/README.md)
+[Readme](https://github.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/blob/main/README.md)
+![Book](https://raw.githubusercontent.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/main/tests/book.png)
 
-## URL extenal server
+## URL same server, different repository
+
+[Readme](https://github.com/abapGit/abapGit/blob/main/README.md)
+![Book](http://raw.githubusercontent.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/main/tests/book.png)
+
+[Readme](https://github.com/abapGit/abapGit/blob/main/README.md)
+![Book](https://raw.githubusercontent.com/Marc-Bernard-Tools/ABAP-Markdown-Tests/main/tests/book.png)
+
+## URL different server
 
 [Readme](http://marcbernardtools.com/)
 
