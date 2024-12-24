@@ -126,8 +126,6 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## Section links
 
-{% data reusables.repositories.section-links %}
-
 If you need to determine the anchor for a heading in a file you are editing, you can use the following basic rules:
 
 * Letters are converted to lower-case.
@@ -172,7 +170,24 @@ Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-i
 
 ## Relative links
 
-{% data reusables.repositories.relative-links %}
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+
+A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in *docs/CONTRIBUTING.md*, the relative link to *CONTRIBUTING.md* in your README might look like this:
+
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with `/` will be relative to the repository root. You can use all relative link operands, such as `./` and `../`.
+
+Your link text should be on a single line. The example below will not work.
+
+```
+[Contribution 
+guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
 
 ## Custom anchors
 
@@ -203,7 +218,7 @@ Some text I want to provide a direct link to, but which doesn't have its own hea
 
 ## Line breaks
 
-If you're writing in issues, pull requests, or discussions in a repository, {% data variables.product.github %} will render a line break automatically:
+If you're writing in issues, pull requests, or discussions in a repository, GitHub will render a line break automatically:
 
 ```markdown
 This example
@@ -515,7 +530,7 @@ For more information on backslashes, see Daring Fireball's "[Markdown Syntax](ht
 
 ## Further reading
 
-- [{% data variables.product.prodname_dotcom %} Flavored Markdown Spec](https://github.github.com/gfm/)
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - "[About writing and formatting on GitHub](https://docs.github.com/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)"
 - "[Working with advanced formatting](https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting)"
 - "[Quickstart for writing on GitHub](https://docs.github.com/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)"
