@@ -4,11 +4,9 @@ From https://github.com/RoneoOrg/markdown (source), https://roneo.org/markdown/ 
 
 ## Benchmarking the support of Markdown with a comprehensive checklist
 
-
 **You're working on a project featuring Markdown?**
 
 Drop [the source of this page](https://raw.githubusercontent.com/RoneoOrg/markdown/main/README.md) wherever you want to test *or showcase* the support of Markdown, and check that every single feature is properly rendered.
-
 
 **Table of Contents**
 
@@ -24,7 +22,6 @@ Drop [the source of this page](https://raw.githubusercontent.com/RoneoOrg/markdo
 - [Footnotes](#footnotes)
 - [Definition List](#definition-list)
 - [Headings](#headings)
-
 
 ## Basic formatting
 
@@ -124,9 +121,7 @@ X^2^
 >
 > `return shell_exec("echo $input | $markdown_script");`
 
-
 ## Lists
-
 
 ### Unordered list
 
@@ -184,7 +179,6 @@ Incrementation is automatic, you can simply use `1.` everywhere
 1. Second item
 1. Third item
 
-
 ### Nested list
 
 ```
@@ -204,7 +198,6 @@ Incrementation is automatic, you can simply use `1.` everywhere
   1. Indented item
   1. Indented item
 - Fourth item
-
 
 ## Linebreaks
 
@@ -261,10 +254,7 @@ ____
 
 ____
 
-
-
 ## Links
-
 
 ### Basic links
 
@@ -284,14 +274,12 @@ ____
 
 <https://roneo.org/markdown> works too. Must be used for explicit links.
 
-
 ### Links using text reference
 
 ```
 [I'm a link][Reference text]
 
 [This link] will do the same as well. It works as the identifier itself.
-
 
 [reference text]: https://jamstack.club
 [this link]: https://roneo.org/markdown
@@ -303,12 +291,10 @@ ____
 
 [This link] will do the same as well. It works as the identifier itself.
 
-
 [reference text]: https://jamstack.club
 [this link]: https://roneo.org/markdown
 
 **Note:** The reference text is *not* case sensitive
-
 
 ### Link with a title on hover
 
@@ -335,7 +321,6 @@ Several syntaxes are accepted:
 
 [random-identifier]: https://roneo.org/markdown "This example has a title"
 
-
 ### Links with Markdown style
 
 To ***emphasize*** links, add asterisks before and after the brackets and parentheses.
@@ -353,7 +338,6 @@ I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.  
 See the section on [`code`](#code).
 
-
 ### Automatic linking
 
 Automatically turn a URL into a link even though you haven’t used brackets.
@@ -365,7 +349,6 @@ http://www.example.com
 The rendered output looks like this:
 
 http://www.example.com
-
 
 ### Disable automatic linking
 
@@ -379,7 +362,6 @@ The rendered output looks like this:
 
 `http://www.example.com`
 
-
 ### Attribute a custom anchor to a heading
 
 Anchors are automatically generated based on the heading's content. You can customize the anchor this way:
@@ -390,10 +372,7 @@ Anchors are automatically generated based on the heading's content. You can cust
 
 #### Heading {#custom-id}
 
-
-
 ## Code formatting
-
 
 ### Inline
 
@@ -404,7 +383,6 @@ Wrap with single backticks to highlight as `` `code` `` → `code`
 Create a code block with three backticks `` ``` `` before and after your block of code.
 
 **Output:**
-
 
 ```
 sudo apt hello
@@ -431,7 +409,6 @@ Let's test the wrapping of a long line:
 Set the language right after the first backticks (for example `` ```html  ``) to get syntax highlighting
 
 #### Samples:
-
 
 #### HTML
 
@@ -525,7 +502,6 @@ Markdown provides backslash escapes for the following characters:
     .   dot
     !   exclamation mark
 
-
 ## Images
 
 ### Basic syntax
@@ -543,7 +519,6 @@ Screen reader users get informations about the image with this attribute called 
 Including **descriptive** alt text [helps maintain accessibility](https://webaim.org/techniques/alttext/) for every visitor and should always be included with an image. When you add alt text be sure to describe the content and function of the picture.  
 In addition to the accessibility benefits, `ALT` is useful for SEO. It's also displayed when, for some reason, the picture is not loaded by the browser.
 
-
 ### Image with title and caption
 
 ```
@@ -551,7 +526,6 @@ In addition to the accessibility benefits, `ALT` is useful for SEO. It's also di
 ```
 
 ![Semantic description](https://roneo.org/img/ok.png "Your title")*Your caption*
-
 
 ### Clickable images
 
@@ -564,8 +538,6 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 **Output:**
 
 [![Semantic description](https://roneo.org/img/ok.png "Your title")](http://jamstack.club)
-
-
 
 ### Image with an identifier
 
@@ -583,7 +555,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit [...]
 
 [image identifier]: https://roneo.org/img/ok.png "Title"
 
-
 ## Task lists
 
 ```
@@ -596,10 +567,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit [...]
 - [x] Write the press release
 - [ ] Update the website
 
-
-
 ## Tables
-
 
 ```
 | Syntax    | Description |
@@ -624,9 +592,7 @@ will render the same way:
 | Header | Title |
 | Paragraph | Text|
 
-
 ### Text alignment in tables
-
 
 ```
 | Syntax    | Description |   Test Text |
@@ -641,8 +607,6 @@ See the way the text is aligned, depending on the position of `':'`
 | :-------- | :---------: | ----------: |
 | Header    |    Title    | Here's this |
 | Paragraph |    Text     |    And more |
-
-
 
 ## Footnotes
 
@@ -688,10 +652,7 @@ Here's a longer one.[^bignote]
 	
 	Note that you can place the footnote anywhere you want in your article
 
-
-
 ## Definition List
-
 
 ```
 term
@@ -715,12 +676,10 @@ second term
 complex term
 : long definition including **bold text**. Velit tempor cillum aute culpa pariatur enim laboris consectetur tempor. Aute elit non do ipsum. Nisi quis culpa magna esse ipsum. Ad aliquip ullamco minim cillum in ullamco.
 
-
 ## Headings
 
 Add `#` at the beginning of a line to set as Heading.  
 You can use up to 6 `#` symbols for the corresponding Heading levels
-
 
 ```
 ## Heading 1
@@ -729,11 +688,9 @@ You can use up to 6 `#` symbols for the corresponding Heading levels
 ###### Heading 6
 ```
 
-
 ## Heading 2
 
 pedit quia voluptates atque nobis, perspiciatis deserunt perferendis, nostrum, voluptatem voluptas dolorem iure voluptatum? Accusantium a dolores dicta?Pariatur voluptates quam ut, cum aliquid eum, officiis laudantium totam suscipit, ducimus odit nobis! Corrupti, doloremque sed optio voluptatibus deserunt quas repellat eius minus quasi, ipsam unde esse sequi deleniti.
-
 
 ### Heading 3 ##################################
 
@@ -750,7 +707,6 @@ pedit quia voluptates atque nobis, perspiciatis deserunt perferendis, nostrum, v
 ###### Heading 6
 
 pedit quia voluptates atque nobis, perspiciatis deserunt perferendis, nostrum, voluptatem voluptas dolorem iure voluptatum? Accusantium a dolores dicta?Pariatur voluptates quam ut, cum aliquid eum, officiis laudantium totam suscipit, ducimus odit nobis! Corrupti, doloremque sed optio voluptatibus deserunt quas repellat eius minus quasi, ipsam unde esse sequi deleniti.
-
 
 ## References
 
